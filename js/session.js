@@ -43,7 +43,7 @@ function session_set(){ //session_set 함수는 세션에 객체를 저장하는
 
                 // 5분 동안 세션 유지 (11주차)
                 let expiration = new Date();
-                expiration.setTime(expiration.getTime() + (1 * 10 * 30000)); // 현재 시간에 x분을 더한 값을 만료 시간으로 설정
+                expiration.setTime(expiration.getTime() + (1 * 10 * 1000)); // 현재 시간에 x분을 더한 값을 만료 시간으로 설정
                 sessionStorage.setItem("Session_Storage_expiration", expiration.getTime());
  
     } else {

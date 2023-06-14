@@ -11,7 +11,7 @@ ul, li, ol{list-style: none;}
 .allMenu{
     position: fixed; right: -100% ; top: 0;
     width: 1000px; height: 100vh; background-color: #fff;
-    border: 2px solid blue;
+    border: 2px solid black;
     transition: 0.3s; z-index: 10;
 }
 .allMenu.on{right: 0;}
